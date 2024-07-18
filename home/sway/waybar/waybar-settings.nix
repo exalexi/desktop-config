@@ -16,6 +16,7 @@
       modules-left = [
         #"sway/mode"
         "sway/window"
+        #"cava"
         #"image"
         #"custom/mediaplayer"
       ];
@@ -34,7 +35,6 @@
         "pulseaudio"
         "clock"
       ];
-      
       /*image = {
          path = "/tmp/waybar-mediaplayer-art";
          size = 32;
@@ -53,7 +53,6 @@
         max-length = 20;
       };*/
 
-      #cava = {};
 
       user = {
         format = "{work_d}:{work_H}:{work_M}:{work_S}";
