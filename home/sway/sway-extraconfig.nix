@@ -3,23 +3,22 @@
     ''
     # Cursor Theme
     exec_always gsettings set org.gnome.desktop.interface cursor-theme "capitaine-cursors"
-                
+
     # Brightness
     bindsym XF86MonBrightnessDown exec light -U 5
     bindsym XF86MonBrightnessUp exec light -A 5
+
     # Volume
     bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
     bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
     bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
-
-    
 
     # Wallpaper
     output * bg /etc/nixos/wallpaper.png fill
 
     # Cool Looks \(^-^)/
     corner_radius 10
-    
+
     blur on
     blur_xray on
     blur_passes 3

@@ -1,11 +1,12 @@
 { pkgs, ... }: {
   imports = [
-    ./home-packages.nix
     ./alacritty.nix	
+    ./cava.nix
     ./firefox.nix
     ./git.nix
-    ./vscode.nix
     ./gtk.nix
+    ./home-packages.nix  
     ./rofi.nix
+    ./vscode.nix
   ];
 }

@@ -29,5 +29,9 @@
     rofi-power-menu
     rofimoji
     rofi-screenshot
+
+    # Waybar Media Player
+    feh 
+    playerctl
   ];
 }

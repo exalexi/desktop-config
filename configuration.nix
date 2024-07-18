@@ -9,10 +9,18 @@
       ./config/system/system-imports.nix
     ];
 
-  # Bootloader.
-  boot.loader = {
-  	systemd-boot.enable = true;
-  	efi.canTouchEfiVariables = true;
+  # Bootloader & Plymouth
+  boot = {
+    loader = {
+      systemd-boot.enable = true;
+  	  efi.canTouchEfiVariables = true;
+    };
+    kernelParams = [ "quiet" ];
+    initrd = {
+      kernelModules = [ "amdgpu" ];
+      systemd.enable = true;
+    };
+    plymouth.enable = true;
   };
   
   # Greeter
@@ -28,15 +36,8 @@
   	};
   };
   
-  # Plymouth
-  boot = {
-    kernelParams = [ "quiet" ];
-    initrd = {
-      kernelModules = [ "amdgpu" ];
-      systemd.enable = true;
-    };
-    plymouth.enable = true;
-  };
+  # ThermalD
+  services.thermald.enable = lib.mkDefault true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.lexi = {

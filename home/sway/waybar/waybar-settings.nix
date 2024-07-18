@@ -4,6 +4,7 @@
   programs.waybar = {
 
     settings.mainBar = {
+      #reload_style_on_change = true;
       layer = "bottom";
       position = "top";
       height = 35;
@@ -11,22 +12,59 @@
       #margin-bottom = 0;
       #margin-left = 0;
       #margin-right = 0;
-      spacing = 30;
+      spacing = 10;
       modules-left = [
-        "sway/workspaces"
-        "sway/mode"
+        #"sway/mode"
+        "sway/window"
+        #"image"
+        #"custom/mediaplayer"
       ];
       modules-center = [
-        "sway/window"
-        #"wlr/taskbar"
+        "sway/workspaces"
+        #"sway/window"
+        #wlr/taskbar"
       ];
       modules-right = [
-        "network"
-        "memory"
-        "cpu"
+        #"network"
+        #"memory"
+        #"cpu"
+        #"cava"
+        "tray"
+        "user"
         "pulseaudio"
         "clock"
       ];
+      
+      /*image = {
+         path = "/tmp/waybar-mediaplayer-art";
+         size = 32;
+         signal = 4;
+         on-click = "feh --auto-zoom --borderless --title 'feh-float' /tmp/waybar-mediaplayer-art";
+      };
+
+      "custom/mediaplayer" = {
+        exec = "$HOME/.config/waybar/waybar-mediaplayer/src/mediaplayer monitor";
+        return-type = "json";
+        format = "{}";
+        on-click = "$HOME/.config/waybar/waybar-mediaplayer/src/mediaplayer play-pause";
+        on-scroll-up = "$HOME/.config/waybar/waybar-mediaplayer/src/mediaplayer next";
+        on-scroll-down = "$HOME/.config/waybar/waybar-mediaplayer/src/mediaplayer previous";
+        min-length = 20;
+        max-length = 20;
+      };*/
+
+      #cava = {};
+
+      user = {
+        format = "{work_d}:{work_H}:{work_M}:{work_S}";
+        interval = 1;
+      };
+      
+      tray = {
+        icon-size = 24;
+        spacing = 8;
+      };
+
       clock = {
         format = "   {:%a %d %b, %H:%M }";
         tooltip = "true";
@@ -64,7 +102,28 @@
       };
       
       "sway/mode" = { 
-        format = ''<span style="italic">{}</span>''; 
+        format = " {}";
+         max-length = 50;
+      };
+
+      "sway/window" = {
+        #format = "😼 {title} 😼";
+        format = "😼{app_id}😼";
+        all-outputs = true;
+        #rotate = 2;
+        icon = true;
+        icon-size = 24;
+      };
+
+      "sway/workspaces" = {
+        format = "{name}";
+        on-click = "activate";
+        format-icons = {
+          urgent = "";
+          active = "";
+          default = "";
+          sort-by-number = true;
+        };
       };
       
       temperature = {
@@ -93,7 +152,6 @@
       };
     };
 
-    style = ''
-    '';
+    style = '''';
   };
 }

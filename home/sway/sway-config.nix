@@ -47,6 +47,7 @@
         "Mod4+p"  = ''exec grim -g "$(slurp)" - | wl-copy'';
         # Rofi Screenshot
         "Mod4+shift+p"  = "exec rofi-screenshot";
+        
 
         # Moving around
         # Move your focus around
