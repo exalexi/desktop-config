@@ -14,17 +14,17 @@
       focus.followMouse = "always";
       
         modes.resize = {
-          Left = "resize shrink width 2ppt";
-          Down = "resize grow height 2ppt";
-          Up = "resize shrink height 2ppt";
+          Left = "resize shrink width  2ppt";
+          Down = "resize grow   height 2ppt";
+          Up =   "resize shrink height 2ppt";
           Right = "resize grow width 2ppt";
           Return = "mode default";
           Escape = "mode default";
         };
 
-
       # Keybindings
       keybindings = {
+
         # Terminal
         "Mod4+Return" = "exec alacritty";
         # Kill focused window
@@ -94,8 +94,7 @@
         "Mod4+Shift+minus" = "move scratchpad";
         
         # Floating Toggle
-        "Mod4+space" = "floating toggle";
-
+        "Mod4+shift+space" = "floating toggle";
       };
 
       # Cool Looks \(^.^)/
@@ -116,7 +115,6 @@
         
       };
 
-      #output.eDP-1.scale = "1";
       input."*" = {
         xkb_layout = "de";
         xkb_variant = "nodeadkeys";

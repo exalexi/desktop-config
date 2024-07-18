@@ -1,7 +1,5 @@
 { config,  pkgs,  lib,  ...}: {
 
-  
-
   gtk = {
     enable = true;
     catppuccin.enable = true; # TODO find a replacement.
@@ -10,9 +8,13 @@
       name = "Noto Sans Regular";
       size = 10;
     };
+    
     iconTheme = {
       name = "Papirus-Dark";
-      package = pkgs.catppuccin-papirus-folders;
+      package = pkgs.catppuccin-papirus-folders.override {
+        flavor = "mocha";
+        accent = "pink";
+      };
     };
    
     gtk3.extraConfig."gtk-application-prefer-dark-theme" = true;

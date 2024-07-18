@@ -15,7 +15,6 @@
   	efi.canTouchEfiVariables = true;
   };
   
-  
   # Greeter
   services.greetd = {
   	enable = true;
@@ -31,7 +30,6 @@
   
   # Plymouth
   boot = {
-    
     kernelParams = [ "quiet" ];
     initrd = {
       kernelModules = [ "amdgpu" ];
@@ -51,11 +49,12 @@
   # Set cursor size
   #environment.variables.XCURSOR_SIZE = 40;  
 
-  # Begin home-manager directives
+  # Begin Home-Manager directives
   home-manager = {
   	useUserPackages = true;
   	useGlobalPkgs = true;
   };
+  # Import Home-Manager config
   home-manager.users.lexi = import ./home;
   
   # Allow unfree packages

@@ -4,7 +4,6 @@
     neofetch
     htop
     eza
-    swayidle
     wl-clipboard
     mako
     alacritty

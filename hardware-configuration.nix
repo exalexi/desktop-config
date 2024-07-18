@@ -42,12 +42,6 @@
       fsType = "ntfs-3g"; 
       options = [ "rw" "uid=1000"];
     };
-  # HDD2
-  #fileSystems."/home/lexi/HDD2" =
-  #  { device = "/dev/sdb5";
-  #    fsType = "ntfs-3g"; 
-  #    options = [ "rw" "uid=1000"];
-  #  };
 
   # Volume:      8CD8D180D8D1694A
   # New Volume:  52FA7085FA7066DF
