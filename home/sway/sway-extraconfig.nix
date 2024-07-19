@@ -2,7 +2,7 @@
   wayland.windowManager.sway.extraConfig = 
     ''
     # Cursor Theme
-    exec_always gsettings set org.gnome.desktop.interface cursor-theme "capitaine-cursors"
+    #exec_always gsettings set org.gnome.desktop.interface cursor-theme "capitaine-cursors"
 
     # Brightness
     bindsym XF86MonBrightnessDown exec light -U 5

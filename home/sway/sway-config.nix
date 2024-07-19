@@ -34,6 +34,7 @@
         "Mod4+ctrl+shift+f" = "exec firefox";
         "Mod4+ctrl+shift+s" = "exec steam";
         "Mod4+ctrl+shift+d" = "exec vesktop";
+        "Mod4+ctrl+shift+e" = "exec element-desktop";
 
         # Start launcher
         "Mod4+d" = "exec rofi -show run";

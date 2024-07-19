@@ -2,7 +2,7 @@
 
   imports =
     [ 
-      ./waybar-settings.nix
+      ./waybar-layout.nix
     ];
     
   programs.waybar = {

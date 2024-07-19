@@ -25,6 +25,7 @@
     vlc
     grim
     slurp
+    
     # Rofi Add-ons
     rofi-power-menu
     rofimoji
