@@ -1,11 +1,11 @@
 { config, pkgs, lib, ... }: {
-  
+
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       <home-manager/nixos>
       ./config/apps/_apps-imports.nix
-      ./config/system/system-imports.nix
+      ./config/system/_system-imports.nix
     ];
   
   # Define a user account. Don't forget to set a password with ‘passwd’.
