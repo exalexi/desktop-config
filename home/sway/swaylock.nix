@@ -14,7 +14,7 @@
       effect-vignette = "0.5:0.5";
       grace = 2;
 
-      # Catppuccin but modified
+      # Catppuccin Mocha Pink but modified
       color =                 lib.mkForce "1e1e2e";
       bs-hl-color =           lib.mkForce "f5e0dc";
       caps-lock-bs-hl-color = lib.mkForce "f5e0dc";

@@ -1,7 +1,7 @@
 { pkgs, ... }: {
     imports =
     [
-      ./system-packages.nix
+      ./-system-packages.nix
       ./steam.nix
     ];
 }

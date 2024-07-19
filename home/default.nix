@@ -6,8 +6,8 @@
 
   imports = [
     <catppuccin/modules/home-manager>
-    ./sway/sway-imports.nix
-    ./home-apps/home-apps-imports.nix
+    ./sway/_sway-imports.nix
+    ./home-apps/_home-apps-imports.nix
     ./catppuccin.nix
     ./cursor.nix
   ];
