@@ -19,8 +19,6 @@
     gimp
     protonvpn-cli_2
     vesktop
-    texlive.combined.scheme-full
-    texworks
     nixfmt-rfc-style
     vlc
     grim
