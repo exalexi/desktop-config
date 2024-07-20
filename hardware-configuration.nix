@@ -29,9 +29,10 @@
       fsType = "vfat";
       options = [ "fmask=0077" "dmask=0077" ];
     };
-
-  # HDD1
-   fileSystems."/home/lexi/HDD1" =
+  
+  # Volume:      8CD8D180D8D1694A
+  # New Volume:  52FA7085FA7066DF
+  fileSystems."/home/lexi/HDD1" =
     { device = "/dev/disk/by-uuid/8CD8D180D8D1694A";
       fsType = "ntfs-3g"; 
       options = [ "rw" "uid=1000"];
@@ -42,9 +43,6 @@
       fsType = "ntfs-3g"; 
       options = [ "rw" "uid=1000"];
     };
-
-  # Volume:      8CD8D180D8D1694A
-  # New Volume:  52FA7085FA7066DF
 
   swapDevices =
     [ { device = "/dev/disk/by-uuid/84771ef9-93d6-4ab4-b6f9-6f1556795250"; }

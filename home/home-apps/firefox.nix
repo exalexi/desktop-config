@@ -60,9 +60,7 @@
         "extensions.pocket.api" = "";
         "extensions.pocket.oAuthConsumerKey" = "";
         "extensions.pocket.showHome" = false;
-        "extensions.pocket.site" = "";
-        
-          
+        "extensions.pocket.site" = "";    
       };
       search = {
         default = "DuckDuckGo";
