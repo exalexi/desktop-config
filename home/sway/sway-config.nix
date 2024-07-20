@@ -103,7 +103,6 @@
 
         # Important
         "Mod4+ctrl+shift+k+m" = "exec firefox https://www.youtube.com/watch?v=YfXpNIQbdjo";
-        "Mod4+ctrl+shift+d+n" = "exec firefox https://www.youtube.com/watch?v=VA69HxJW23E";
         "Mod4+ctrl+shift+c+s" = "exec firefox https://www.youtube.com/watch?v=9wQnO-Katws";
         "Mod4+ctrl+shift+p+t" = "exec firefox https://www.youtube.com/watch?v=LdTIl4FS-58";
         "Mod4+ctrl+shift+m+1" = "exec firefox https://www.youtube.com/watch?v=ZGCckws9SJI";

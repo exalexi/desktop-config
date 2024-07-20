@@ -1,7 +1,6 @@
 { pkgs, ... }: {
     home.packages = with pkgs; [
     file
-    neofetch
     htop
     eza
     wl-clipboard
@@ -23,6 +22,7 @@
     grim
     slurp
     wtype
+    yt-dlp
     
     # Rofi Add-ons
     rofi-power-menu
@@ -32,5 +32,7 @@
     # Waybar Media Player
     feh 
     playerctl
+    
+
   ];
 }
