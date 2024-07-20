@@ -31,5 +31,6 @@
 
     # Startup Apps, TODO
     #exec swaymsg "workspace 1; exec alacritty; workspace 2; exec alacritty; exec firefox; workspace 3; exec firefox; workspace 4; exec discord; exec element-desktop; layout tabbed; workspace 5; exec keepassxc;"
+    exec swaylock
     '';
 }

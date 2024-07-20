@@ -13,14 +13,14 @@
 
       focus.followMouse = "always";
       
-        modes.resize = {
-          Left = "resize shrink width  2ppt";
-          Down = "resize grow   height 2ppt";
-          Up =   "resize shrink height 2ppt";
-          Right = "resize grow width 2ppt";
-          Return = "mode default";
-          Escape = "mode default";
-        };
+      modes.resize = {
+        Left = "resize shrink width  2ppt";
+        Down = "resize grow   height 2ppt";
+        Up =   "resize shrink height 2ppt";
+        Right = "resize grow width 2ppt";
+        Return = "mode default";
+        Escape = "mode default";
+      };
 
       # Keybindings
       keybindings = {
@@ -29,8 +29,10 @@
         "Mod4+Return" = "exec alacritty";
         # Kill focused window
         "Mod4+shift+q" = "kill";
+        
         # Open Useful Stuff
         "Mod4+ctrl+shift+n" = "exec nautilus";
+        "Mod4+ctrl+shift+v" = "exec codium";
         "Mod4+ctrl+shift+f" = "exec firefox";
         "Mod4+ctrl+shift+s" = "exec steam";
         "Mod4+ctrl+shift+d" = "exec vesktop";
@@ -42,14 +44,15 @@
         "Mod4+tab" = "exec rofi -show window";
         # Rofi Power Menu
         "Mod4+ctrl+p" = "exec rofi -show power-menu -modi power-menu:rofi-power-menu";
+        # Rofi-Emoji
+        "Mod4+shift+period" = "exec rofimoji";
         # Swaylock
         "Mod4+l" = "exec swaylock";
          # Screenshot
-        "Mod4+p"  = ''exec grim -g "$(slurp)" - | wl-copy'';
+        "Mod4+print"  = ''exec grim -g "$(slurp)" - | wl-copy'';
         # Rofi Screenshot
-        "Mod4+shift+p"  = "exec rofi-screenshot";
+        "Mod4+shift+print"  = "exec rofi-screenshot";
         
-
         # Moving around
         # Move your focus around
         "Mod4+Left" = "focus left";
@@ -97,6 +100,14 @@
         
         # Floating Toggle
         "Mod4+shift+space" = "floating toggle";
+
+        # Important
+        "Mod4+ctrl+shift+k+m" = "exec firefox https://www.youtube.com/watch?v=YfXpNIQbdjo";
+        "Mod4+ctrl+shift+d+n" = "exec firefox https://www.youtube.com/watch?v=VA69HxJW23E";
+        "Mod4+ctrl+shift+c+s" = "exec firefox https://www.youtube.com/watch?v=9wQnO-Katws";
+        "Mod4+ctrl+shift+p+t" = "exec firefox https://www.youtube.com/watch?v=LdTIl4FS-58";
+        "Mod4+ctrl+shift+m+1" = "exec firefox https://www.youtube.com/watch?v=ZGCckws9SJI";
+        "Mod4+ctrl+shift+w+3" = "exec firefox https://www.youtube.com/watch?v=19Tx3LDpgRk";
       };
 
       # Cool Looks \(^.^)/

@@ -23,6 +23,7 @@
     vlc
     grim
     slurp
+    wtype
     
     # Rofi Add-ons
     rofi-power-menu
