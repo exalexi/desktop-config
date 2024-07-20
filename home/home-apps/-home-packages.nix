@@ -7,7 +7,6 @@
     wl-clipboard
     mako
     alacritty
-    wofi
     keepassxc
     gnome.eog
     gnome.evince

@@ -26,9 +26,6 @@
         "pulseaudio"
         "clock"
       ];
-
     };
-
-    style = '''';
   };
 }

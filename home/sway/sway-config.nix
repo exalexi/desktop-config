@@ -112,12 +112,12 @@
 
       # Cool Looks \(^.^)/
       gaps = {
-        inner = 10;
-        outer = 5;
+        inner = 6;
+        outer = 3;
       };
               
       terminal = "alacritty";
-      menu = "wofi --show run";
+      menu = "rofi --show run";
       bars = [{
         command = "waybar";
       }];
