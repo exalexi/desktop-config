@@ -25,9 +25,9 @@
       "Mod4+ctrl+shift+e" = "exec element-desktop";
 
       # Start launcher
-      "Mod4+d" = "exec rofi -show run";
+      "Mod4+d" = "exec rofi -show-icons -show run";
       # Switch Windows
-      "Mod4+tab" = "exec rofi -show window";
+      "Mod4+tab" = "exec rofi -show-icons -show window";
       # Rofi Power Menu
       "Mod4+ctrl+p" = "exec rofi -show power-menu -modi power-menu:rofi-power-menu";
       # Rofi-Emoji

@@ -23,16 +23,14 @@
     slurp
     wtype
     yt-dlp
-    
-    # Rofi Add-ons
-    rofi-power-menu
     rofimoji
+    rofi-power-menu
     rofi-screenshot
-
     # Waybar Media Player
     feh 
     playerctl
     
+    fish
 
   ];
 }
