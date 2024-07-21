@@ -14,11 +14,13 @@
     bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 
     # Wallpaper
-    output * bg /etc/nixos/wallpaper.png fill
-
-    # Cool Looks \(^-^)/
-    corner_radius 10
-
+    # Left
+    output DP-2 bg /etc/nixos/home/sway/wallpaper/Collage16by10Scaled.png fill
+    # Mid
+    output DP-1 bg /etc/nixos/home/sway/wallpaper/CryingBlossoms16by9Scaled.png fill
+    # Right
+    output HDMI-A-1 bg /etc/nixos/home/sway/wallpaper/CherryBlossomTree9by16Scaled.png fill
+    
     blur on
     blur_xray on
     blur_passes 3
@@ -30,7 +32,6 @@
     shadow_color #f4b8e4
 
     # Startup Apps, TODO
-    #exec swaymsg "workspace 1; exec alacritty; workspace 2; exec alacritty; exec firefox; workspace 3; exec firefox; workspace 4; exec discord; exec element-desktop; layout tabbed; workspace 5; exec keepassxc;"
     exec swaylock
     '';
 }
