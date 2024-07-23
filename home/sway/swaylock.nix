@@ -19,11 +19,11 @@
       bs-hl-color =           lib.mkForce "f5c2e7";
       caps-lock-bs-hl-color = lib.mkForce "f5c2e7";
       caps-lock-key-hl-color= lib.mkForce "f5c2e7";
-      inside-color=           lib.mkForce "00000000";
-      inside-clear-color=     lib.mkForce "00000000";
-      inside-caps-lock-color= lib.mkForce "00000000";
-      inside-ver-color=       lib.mkForce "00000000";
-      inside-wrong-color=     lib.mkForce "00000000";
+      inside-color=           lib.mkForce "00000080";
+      inside-clear-color=     lib.mkForce "00000080";
+      inside-caps-lock-color= lib.mkForce "00000080";
+      inside-ver-color=       lib.mkForce "00000080";
+      inside-wrong-color=     lib.mkForce "00000080";
       key-hl-color=           lib.mkForce "f5c2e7";
       layout-bg-color=        lib.mkForce "00000000";
       layout-border-color=    lib.mkForce "00000000";

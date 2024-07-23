@@ -6,5 +6,6 @@
   	cantarell-fonts
   	font-awesome
 		nerdfonts
+		font-awesome
   ];
 }  

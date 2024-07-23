@@ -5,7 +5,7 @@
     plugins = [];
     theme = 
       let 
-      inherit (config.lib.formats.rasi) mkLiteral;
+        inherit (config.lib.formats.rasi) mkLiteral;
       in {
       "window" = {
         width = lib.mkForce "50";

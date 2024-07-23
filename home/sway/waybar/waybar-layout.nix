@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ pkgs, lib, ... }: {
   imports = [ ./modules/_module-imports.nix ];
 
   programs.waybar = {
@@ -6,8 +6,9 @@
     settings.mainBar = {
       layer = "bottom";
       position = "top";
-      height = 35;
-      spacing = 10;
+      #height = 25;
+      #spacing = 10;
+      #reload_style_on_change = true;
       modules-left = [
         "sway/window"
         #"cava"

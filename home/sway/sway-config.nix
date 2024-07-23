@@ -35,7 +35,7 @@
         xkb_variant = "nodeadkeys";
       };
 
-      workspaceAutoBackAndForth = false;
+      workspaceAutoBackAndForth = true;
     };
   };
 }

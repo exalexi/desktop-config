@@ -23,6 +23,7 @@
     slurp
     wtype
     yt-dlp
+    xmousepasteblock
     rofimoji
     rofi-power-menu
     rofi-screenshot

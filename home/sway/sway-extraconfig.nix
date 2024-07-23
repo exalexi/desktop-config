@@ -4,6 +4,9 @@
     # Cursor Theme
     #exec_always gsettings set org.gnome.desktop.interface cursor-theme "capitaine-cursors"
 
+    # Disable Middle Click Paste
+    #gsettings set org.gnome.desktop.interface gtk-enable-primary-paste false
+    
     # Brightness
     bindsym XF86MonBrightnessDown exec light -U 5
     bindsym XF86MonBrightnessUp exec light -A 5
@@ -25,6 +28,8 @@
     blur_xray on
     blur_passes 3
     blur_radius 10	
+
+    corner_radius 15
 
     shadows on
     #shadow_on_csd off
