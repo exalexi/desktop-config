@@ -24,17 +24,19 @@
     # Right
     output HDMI-A-1 bg /etc/nixos/home/sway/wallpaper/CherryBlossomTree9by16Scaled.png fill
     
-    blur on
-    blur_xray on
-    blur_passes 3
-    blur_radius 10	
+    #blur on
+    #blur_xray on
+    #blur_passes 3
+    #blur_radius 10	
 
     corner_radius 15
 
-    shadows on
+    #default_dim_inactive 0.5
+
+    #shadows on
     #shadow_on_csd off
-    shadow_blur_radius 10
-    shadow_color #f4b8e4
+    #shadow_blur_radius 10
+    #shadow_color #f4b8e4
 
     # Startup Apps, TODO
     exec swaylock

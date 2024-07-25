@@ -6,9 +6,13 @@
     settings.mainBar = {
       layer = "bottom";
       position = "top";
-      #height = 25;
-      #spacing = 10;
-      #reload_style_on_change = true;
+      height = 25;
+      spacing = 10;
+      margin-top = 0;
+      margin-bottom = 0;
+      margin-left = 0;
+      margin-right = 0;
+      reload_style_on_change = true;
       modules-left = [
         "sway/window"
         #"cava"
