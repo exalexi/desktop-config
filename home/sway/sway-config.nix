@@ -4,7 +4,7 @@ let
     text = "cdd6f4";          
     background = "1e1e2e";    
   };
-in { pkgs, ... }: 	{
+in { ... }: 	{
   
   wayland.windowManager.sway = {
     checkConfig = false;

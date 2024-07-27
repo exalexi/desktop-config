@@ -29,9 +29,8 @@
     rofi-screenshot
     # Waybar Media Player
     feh 
-    playerctl
-    
-    fish
-
+    playerctl   
+    w3m
+    imagemagick
   ];
 }

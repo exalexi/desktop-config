@@ -16,21 +16,24 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.lexi = {
     isNormalUser = true;
+    useDefaultShell = true;
     description = "Lexi";
     extraGroups = [ "networkmanager" "wheel" "video" "storage" ];
     packages = with pkgs; [];
   };
 
-  # Begin Home-Manager directives
+  # Home-Manager
   home-manager = {
   	useUserPackages = true;
   	useGlobalPkgs = true;
+    users.lexi = import ./home;
   };
-  # Import Home-Manager config
-  home-manager.users.lexi = import ./home;
   
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  # Enable zsh completion.
+  environment.pathsToLink = [ "/share/zsh" ];
 
   system.stateVersion = "24.05"; 
 }

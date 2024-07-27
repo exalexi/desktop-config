@@ -1,4 +1,4 @@
-{ pkgs, ... }: 	{
+{ ... }: 	{
   wayland.windowManager.sway.extraConfig = 
     ''
     # Cursor Theme
@@ -18,11 +18,11 @@
 
     # Wallpaper
     # Left
-    output DP-2 bg /etc/nixos/home/sway/wallpaper/Collage16by10Scaled.png fill
+    output DP-2 bg /etc/nixos/home/sway/images/Collage16by10Scaled.png fill
     # Mid
-    output DP-1 bg /etc/nixos/home/sway/wallpaper/CryingBlossoms16by9Scaled.png fill
+    output DP-1 bg /etc/nixos/home/sway/images/CryingBlossoms16by9Scaled.png fill
     # Right
-    output HDMI-A-1 bg /etc/nixos/home/sway/wallpaper/CherryBlossomTree9by16Scaled.png fill
+    output HDMI-A-1 bg /etc/nixos/home/sway/images/CherryBlossomTree9by16Scaled.png fill
     
     #blur on
     #blur_xray on

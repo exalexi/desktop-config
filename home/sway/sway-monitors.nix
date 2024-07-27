@@ -1,4 +1,4 @@
-{ pkgs, ... }: 	{
+{ ... }: 	{
   wayland.windowManager.sway.config.output = rec{
     DP-2 = {
       resolution = "1680x1050";

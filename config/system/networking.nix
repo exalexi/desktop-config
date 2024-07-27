@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ ... }: {
   networking = {
     hostName = "Lesktop";
     networkmanager.enable = true;

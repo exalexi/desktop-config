@@ -1,4 +1,4 @@
-{ pkgs, lib, ... }: 	{
+{ ... }: 	{
   
   #TODO
   xdg.mimeApps = { 

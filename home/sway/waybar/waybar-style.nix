@@ -6,7 +6,7 @@ let
     background = "#1e1e2e";
     transparency = "rgba(0,0,0,0)";
   };
-in { pkgs, ... }: {
+in { ... }: {
   programs.waybar.style = ''
       * {
           border: none;

@@ -2,7 +2,6 @@
   environment.systemPackages = with pkgs; [
     greetd.tuigreet
     lutris-free
-    neofetch
     wineWowPackages.waylandFull
     micro
     parted
@@ -17,5 +16,6 @@
     ntfs3g
     pavucontrol
     libnotify
+    #neofetch
   ];
 }
