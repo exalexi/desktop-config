@@ -16,6 +16,6 @@
     ntfs3g
     pavucontrol
     libnotify
-    #neofetch
+    neofetch
   ];
 }

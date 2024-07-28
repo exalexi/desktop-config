@@ -8,6 +8,21 @@ let
 in  {pkgs, lib, ... }: 	{
   programs.alacritty = {
     enable = true;
+
+    # Alacritty-Sixel for images in neofetch
+    # TODO someday i guess 🐱
+    /*package = pkgs.alacritty.overrideDerivation (oldAttrs: {
+      name = "alacritty-sixel";
+      src = pkgs.fetchgit {
+        url = "https://github.com/microo8/alacritty-sixel.git";
+        rev = "53110c6ecfc49d8e9298e90d1779a5d156d191fe";
+        hash = "sha256-su3ul5LF8CLBy/2/GQ2gpbbP8C+cLziRplGTf714beE=";
+        #cargoHash = "";
+      };
+      cargoHash = "";
+   });*/
+
+
     settings = {
       env.TERM = "alacritty";
 

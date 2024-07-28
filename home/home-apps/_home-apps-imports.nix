@@ -7,7 +7,7 @@
     ./firefox.nix
     ./git.nix
     ./gtk.nix 
-    ./neofetch.nix
+    ./kando.nix
     ./rofi.nix
     ./vscode.nix
     ./zsh.nix
