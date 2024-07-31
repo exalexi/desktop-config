@@ -32,5 +32,6 @@
     playerctl   
     w3m
     imagemagick
+    hyfetch
   ];
 }

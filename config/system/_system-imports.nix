@@ -8,6 +8,7 @@
     ./locale.nix
     ./mount.nix
     ./networking.nix
+    ./printing.nix
     ./sway.nix
     ./thermald.nix
     ./video.nix

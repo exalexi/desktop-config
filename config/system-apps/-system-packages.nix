@@ -17,5 +17,6 @@
     pavucontrol
     libnotify
     neofetch
+    gnome.simple-scan
   ];
 }
