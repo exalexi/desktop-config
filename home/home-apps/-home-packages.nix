@@ -33,5 +33,6 @@
     w3m
     imagemagick
     hyfetch
+    qbittorrent
   ];
 }
