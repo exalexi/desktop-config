@@ -18,5 +18,6 @@
     libnotify
     neofetch
     gnome.simple-scan
+    networkmanagerapplet
   ];
 }

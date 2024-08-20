@@ -26,6 +26,8 @@ in  {pkgs, config, ...}:{
       update = "sudo nixos-rebuild switch";
       ".." = "cd ..";
       "😼" = ''echo "nyaaaa :3"'';
+      "neofetched" = ''clear && neofetch --distro_shorthand on --os_arch off --kernel_shorthand off --cpu_cores logical --cpu_temp C --gpu_type all --gtk_shorthand on --colors 225 219 231 225 225 189 --bold off --ascii_distro NixOS --ascii_colors 225 117 0 0 0 0'';
+
     };
 
     history = {
@@ -35,7 +37,11 @@ in  {pkgs, config, ...}:{
       path = "${config.xdg.dataHome}/zsh/history";
     };
 
-    historySubstringSearch.enable = true;
+    historySubstringSearch = {
+      enable = true;
+      #searchDownKey = "";
+      #searchUpKey = "";
+    };
 
     oh-my-zsh = {
       enable = true;
@@ -51,11 +57,16 @@ in  {pkgs, config, ...}:{
       ];
     };
 
-    prezto = {
+   /* prezto = {
       enable = true;
       caseSensitive = false;
       color = true;
-      
+      autosuggestions.color = custom.accent;
+      historySubstring = {
+        foundColor = custom.accent;
+        notFoundColor = custom.text;
+      };
+    
 
       prompt = {
 
@@ -64,7 +75,7 @@ in  {pkgs, config, ...}:{
       extraModules = [
         "zpty"
       ];
-    };
+    };*/
 
     initExtra = 
       ''

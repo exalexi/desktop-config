@@ -8,6 +8,7 @@
     ./git.nix
     ./gtk.nix 
     ./kando.nix
+    ./obs.nix
     ./rofi.nix
     ./vscode.nix
     ./zsh.nix

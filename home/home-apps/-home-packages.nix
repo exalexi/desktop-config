@@ -11,11 +11,12 @@
     gnome.evince
     gnome.file-roller
     gnome.nautilus
+    
     element-desktop
     rpi-imager
     tigervnc
     gimp
-    protonvpn-cli_2
+    protonvpn-gui
     vesktop
     nixfmt-rfc-style
     vlc
@@ -34,5 +35,6 @@
     imagemagick
     hyfetch
     qbittorrent
+    libreoffice
   ];
 }
