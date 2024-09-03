@@ -12,5 +12,6 @@
     ./sway.nix
     ./thermald.nix
     ./video.nix
+    ./vms.nix
   ];
 }

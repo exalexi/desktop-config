@@ -36,5 +36,10 @@
     hyfetch
     qbittorrent
     libreoffice
+    tor-browser
+
+    #School stuff
+    #ciscoPacketTracer7
+    ciscoPacketTracer8
   ];
 }
