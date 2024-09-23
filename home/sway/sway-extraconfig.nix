@@ -38,6 +38,9 @@
     #shadow_blur_radius 10
     #shadow_color #f4b8e4
 
+    # Set floating window size
+    for_window [app_id="Alacritty" floating] resize set 1400 700
+
     # Startup Apps, TODO
     exec swaylock
     '';

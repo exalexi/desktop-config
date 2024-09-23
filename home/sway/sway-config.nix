@@ -84,6 +84,33 @@ in { ... }: 	{
       };
 
       workspaceAutoBackAndForth = true;
+
+      floating = {
+        
+        criteria = [
+          {
+            app_id = "PacketTracer";
+          }
+          {
+            app_id = "org.gnome.Nautilus";
+          }
+          {
+            app_id = "Alacritty";
+          }
+          {
+            app_id = "org.keepassxc.KeePassXC";
+          }
+          {
+            app_id = "nm-connection-editor";
+          }
+          {
+            app_id = "simple-scan";
+          }
+          {
+            app_id = "steamwebhelper";
+          }
+        ];
+      }; 
     };
   };
 }
