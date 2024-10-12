@@ -37,6 +37,7 @@
     qbittorrent
     libreoffice
     tor-browser
+    jellyfin-media-player
     
     #School stuff
     #ciscoPacketTracer7

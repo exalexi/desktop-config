@@ -93,6 +93,10 @@
       "Mod4+ctrl+shift+p+t" = "exec firefox https://www.youtube.com/watch?v=LdTIl4FS-58";
       "Mod4+ctrl+shift+m+1" = "exec firefox https://www.youtube.com/watch?v=ZGCckws9SJI";
       "Mod4+ctrl+shift+w+3" = "exec firefox https://www.youtube.com/watch?v=19Tx3LDpgRk";
+
+      "Mod4+ctrl+shift+alt+l" = "exec firefox https://github.com/NixOS/nixpkgs";
+
+      
     };
   };
 }
