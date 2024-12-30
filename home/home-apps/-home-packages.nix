@@ -7,10 +7,11 @@
     mako
     alacritty
     keepassxc
-    gnome.eog
-    gnome.evince
-    gnome.file-roller
-    gnome.nautilus
+    eog
+    evince
+    file-roller
+    nautilus
+    gnome-disk-utility
     
     element-desktop
     rpi-imager
@@ -34,11 +35,13 @@
     w3m
     imagemagick
     hyfetch
-    qbittorrent
+    #qbittorrent
     libreoffice
     tor-browser
     jellyfin-media-player
     
+    angryipscanner
+
     #School stuff
     #ciscoPacketTracer7
     ciscoPacketTracer8

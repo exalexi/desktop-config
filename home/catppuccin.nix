@@ -4,11 +4,11 @@
     enable = true;
     flavor = "mocha";	
     accent = "pink";
-  };
-
-  gtk.catppuccin = {	
-    enable = true;
-    accent = "pink";
-    flavor = "mocha";
+    gtk = {
+      enable = true;
+      accent = "pink";
+      flavor = "mocha";
+    };
+    
   };
 }

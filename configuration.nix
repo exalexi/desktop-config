@@ -27,6 +27,7 @@
   	useUserPackages = true;
   	useGlobalPkgs = true;
     users.lexi = import ./home;
+    backupFileExtension = "backup";
   };
   
   # Allow unfree packages

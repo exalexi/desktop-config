@@ -17,7 +17,12 @@
     pavucontrol
     libnotify
     neofetch
-    gnome.simple-scan
+    simple-scan
     networkmanagerapplet
+    subfinder
+    
+    
+    # AdoptOpenJDK
+    temurin-bin
   ];
 }

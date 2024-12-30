@@ -1,8 +1,10 @@
 { config, pkgs, ...}: {
 
+
+  catppuccin.gtk.enable = true; # TODO find a replacement.
   gtk = {
     enable = true;
-    catppuccin.enable = true; # TODO find a replacement.
+    
     font = {
       package = pkgs.noto-fonts;
       name = "Noto Sans Regular";
