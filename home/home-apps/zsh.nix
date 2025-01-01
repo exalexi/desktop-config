@@ -28,7 +28,7 @@ in  {pkgs, config, ...}:{
       "😼" = ''echo "nyaaaa :3"'';
       "😿" = ''echo nyaaaa 3:'';
       "neofetched" = ''clear && neofetch --distro_shorthand on --os_arch off --kernel_shorthand off --cpu_cores logical --cpu_temp C --gpu_type all --gtk_shorthand on --colors 225 219 231 225 225 189 --bold off --ascii_distro NixOS --ascii_colors 225 117 0 0 0 0'';
-
+      "sshilo" = "ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa";
     };
 
     history = {

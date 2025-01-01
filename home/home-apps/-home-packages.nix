@@ -13,6 +13,8 @@
     nautilus
     gnome-disk-utility
     
+    ventoy-full
+    unetbootin
     element-desktop
     rpi-imager
     tigervnc
