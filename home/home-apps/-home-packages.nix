@@ -31,8 +31,7 @@
     rofimoji
     rofi-power-menu
     rofi-screenshot
-    # Waybar Media Player
-    feh 
+
     playerctl   
     w3m
     imagemagick
