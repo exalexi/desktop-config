@@ -1,6 +1,6 @@
-{ ...}: {
-  imports =
-  [ 
+{ ... }:
+{
+  imports = [
     ./clock.nix
     ./cpu.nix
     ./image.nix

@@ -1,5 +1,6 @@
-{ ... }: {
+{ ... }:
+{
 
-  # TODO: Figure this annoying garbage out 
- 
+  # TODO: Figure this annoying garbage out
+
 }

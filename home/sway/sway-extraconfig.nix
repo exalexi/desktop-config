@@ -1,12 +1,12 @@
-{ ... }: 	{
-  wayland.windowManager.sway.extraConfig = 
-    ''
+{ ... }:
+{
+  wayland.windowManager.sway.extraConfig = ''
     # Cursor Theme
     #exec_always gsettings set org.gnome.desktop.interface cursor-theme "capitaine-cursors"
 
     # Disable Middle Click Paste
     #gsettings set org.gnome.desktop.interface gtk-enable-primary-paste false
-    
+
     # Brightness
     bindsym XF86MonBrightnessDown exec light -U 5
     bindsym XF86MonBrightnessUp exec light -A 5
@@ -23,7 +23,7 @@
     output DP-1 bg /etc/nixos/home/sway/images/CryingBlossoms16by9Scaled.png fill
     # Right
     output HDMI-A-1 bg /etc/nixos/home/sway/images/CherryBlossomTree9by16Scaled.png fill
-    
+
     #blur on
     #blur_xray on
     #blur_passes 3
@@ -43,5 +43,5 @@
 
     # Startup Apps, TODO
     exec swaylock
-    '';
+  '';
 }

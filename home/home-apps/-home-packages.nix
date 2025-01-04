@@ -1,5 +1,6 @@
-{ pkgs, ... }: {
-    home.packages = with pkgs; [
+{ pkgs, ... }:
+{
+  home.packages = with pkgs; [
     file
     htop
     eza
@@ -12,7 +13,7 @@
     file-roller
     nautilus
     gnome-disk-utility
-    
+
     ventoy-full
     unetbootin
     element-desktop
@@ -32,7 +33,7 @@
     rofi-power-menu
     rofi-screenshot
 
-    playerctl   
+    playerctl
     w3m
     imagemagick
     hyfetch
@@ -40,7 +41,7 @@
     libreoffice
     tor-browser
     jellyfin-media-player
-    
+
     angryipscanner
 
     #School stuff

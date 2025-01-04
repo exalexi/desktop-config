@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   environment.systemPackages = with pkgs; [
     greetd.tuigreet
     lutris-free
@@ -21,7 +22,7 @@
     networkmanagerapplet
     subfinder
     sshfs
-    
+
     # AdoptOpenJDK
     temurin-bin
   ];

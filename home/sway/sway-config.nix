@@ -1,11 +1,13 @@
 let
   custom = {
-    accent = "f5c2e7";    
-    text = "cdd6f4";          
-    background = "1e1e2e";    
+    accent = "f5c2e7";
+    text = "cdd6f4";
+    background = "1e1e2e";
   };
-in { ... }: 	{
-  
+in
+{ ... }:
+{
+
   wayland.windowManager.sway = {
     checkConfig = false;
     enable = true;
@@ -14,11 +16,11 @@ in { ... }: 	{
     wrapperFeatures.gtk = true;
     config = rec {
       modifier = "Mod4";
-      
+
       defaultWorkspace = "10";
 
       focus.followMouse = "always";
-      
+
       gaps = {
         inner = 2;
         left = 1;
@@ -26,12 +28,14 @@ in { ... }: 	{
         top = 0;
         bottom = 1;
       };
-              
+
       terminal = "alacritty";
       menu = "rofi -show drun";
-      bars = [{
-        command = "waybar";
-      }];
+      bars = [
+        {
+          command = "waybar";
+        }
+      ];
 
       window = {
         hideEdgeBorders = "none";
@@ -86,7 +90,7 @@ in { ... }: 	{
       workspaceAutoBackAndForth = true;
 
       floating = {
-        
+
         criteria = [
           {
             app_id = "PacketTracer";
@@ -110,7 +114,7 @@ in { ... }: 	{
             app_id = "steamwebhelper";
           }
         ];
-      }; 
+      };
     };
   };
 }

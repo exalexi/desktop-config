@@ -1,7 +1,8 @@
-{ ... }: {
+{ ... }:
+{
 
   programs.waybar.settings.mainBar = {
-  
+
     "sway/workspaces" = {
       format = "{icon}{name}{icon}";
       on-click = "activate";

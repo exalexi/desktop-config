@@ -1,14 +1,15 @@
-{ ... }: {
+{ ... }:
+{
   imports = [
-    ./-home-packages.nix 
-    ./alacritty.nix	
+    ./-home-packages.nix
+    ./alacritty.nix
     ./catppuccin.nix
     ./cava.nix
     ./cursor.nix
     ./dunst.nix
     ./firefox.nix
     ./git.nix
-    ./gtk.nix 
+    ./gtk.nix
     ./networkmanagerapplet.nix
     ./obs.nix
     ./rofi.nix

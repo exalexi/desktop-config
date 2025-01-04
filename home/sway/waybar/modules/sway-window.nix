@@ -1,7 +1,8 @@
-{ ... }: {
+{ ... }:
+{
 
   programs.waybar.settings.mainBar = {
-    
+
     "sway/window" = {
       format = "  😼 {app_id}";
       all-outputs = true;

@@ -1,8 +1,8 @@
-{ ... }: {
-    imports =
-    [
-      ./-system-packages.nix
-      ./steam.nix
-      ./zsh.nix
-    ];
+{ ... }:
+{
+  imports = [
+    ./-system-packages.nix
+    ./steam.nix
+    ./zsh.nix
+  ];
 }

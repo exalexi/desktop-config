@@ -1,7 +1,8 @@
-{ ... }: {
+{ ... }:
+{
 
   programs.waybar.settings.mainBar = {
-    
+
     network = {
       interval = 1;
       format-alt = "{ifname}: {ipaddr}/{cidr}";

@@ -6,7 +6,9 @@ let
     background = "#1e1e2e";
     transparency = "rgba(0,0,0,0)";
   };
-in { ... }: {
+in
+{ ... }:
+{
   programs.waybar.style = ''
     * {
         border: none;
@@ -81,5 +83,5 @@ in { ... }: {
         border-radius: 0px 0px 15px 0px;
         margin: 0px 0;
     }
-    '';
+  '';
 }

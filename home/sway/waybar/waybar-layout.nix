@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   imports = [ ./modules/_module-imports.nix ];
 
   programs.waybar = {

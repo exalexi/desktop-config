@@ -1,9 +1,10 @@
-{ ... }: {
+{ ... }:
+{
 
   programs.waybar.settings.mainBar = {
-    
-    memory = { 
-      format = "{}% "; 
+
+    memory = {
+      format = "{}% ";
     };
   };
 }

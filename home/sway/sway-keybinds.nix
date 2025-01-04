@@ -1,10 +1,11 @@
-{ ... }: 	{
+{ ... }:
+{
   wayland.windowManager.sway.config = rec {
 
     modes.resize = {
       Left = "resize shrink width  2ppt";
       Down = "resize grow   height 2ppt";
-      Up =   "resize shrink height 2ppt";
+      Up = "resize shrink height 2ppt";
       Right = "resize grow width 2ppt";
       Return = "mode default";
       Escape = "mode default";
@@ -15,7 +16,7 @@
       "Mod4+Return" = "exec alacritty";
       # Kill focused window
       "Mod4+shift+q" = "kill";
-      
+
       # Open Useful Stuff
       "Mod4+ctrl+shift+n" = "exec nautilus";
       "Mod4+ctrl+shift+v" = "exec codium";
@@ -34,11 +35,11 @@
       "Mod4+shift+period" = "exec rofimoji -r emoji";
       # Swaylock
       "Mod4+l" = "exec swaylock";
-        # Screenshot
-      "Mod4+print"  = ''exec grim -g "$(slurp)" - | wl-copy'';
+      # Screenshot
+      "Mod4+print" = ''exec grim -g "$(slurp)" - | wl-copy'';
       # Rofi Screenshot
-      "Mod4+shift+print"  = "exec rofi-screenshot";
-      
+      "Mod4+shift+print" = "exec rofi-screenshot";
+
       # Moving around
       # Move your focus around
       "Mod4+Left" = "focus left";
@@ -79,11 +80,11 @@
       "Mod4+Shift+8" = "move container to workspace number 8";
       "Mod4+Shift+9" = "move container to workspace number 9";
       "Mod4+Shift+0" = "move container to workspace number 10";
-      
+
       # Scratchpad
       "Mod4+minus" = "scratchpad show";
       "Mod4+Shift+minus" = "move scratchpad";
-      
+
       # Floating Toggle
       "Mod4+shift+space" = "floating toggle";
 
@@ -96,7 +97,6 @@
 
       "Mod4+ctrl+shift+alt+l" = "exec firefox https://github.com/NixOS/nixpkgs";
 
-      
     };
   };
 }
