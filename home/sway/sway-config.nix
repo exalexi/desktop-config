@@ -20,11 +20,11 @@ in { ... }: 	{
       focus.followMouse = "always";
       
       gaps = {
-        inner = 6;
-        left = 3;
-        right = 3;
+        inner = 2;
+        left = 1;
+        right = 1;
         top = 0;
-        bottom = 3;
+        bottom = 1;
       };
               
       terminal = "alacritty";

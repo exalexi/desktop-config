@@ -20,6 +20,7 @@
     description = "Lexi";
     extraGroups = [ "networkmanager" "wheel" "video" "storage" "libvirtd" ];
     packages = with pkgs; [];
+    openssh.authorizedKeys.keys = [];
   };
 
   # Home-Manager
@@ -35,6 +36,9 @@
 
   # Enable zsh completion.
   environment.pathsToLink = [ "/share/zsh" ];
+
+  # Enable flakes
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   system.stateVersion = "24.05"; 
 }

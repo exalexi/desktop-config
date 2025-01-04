@@ -2,12 +2,13 @@
   imports = [
     ./-home-packages.nix 
     ./alacritty.nix	
+    ./catppuccin.nix
     ./cava.nix
+    ./cursor.nix
     ./dunst.nix
     ./firefox.nix
     ./git.nix
     ./gtk.nix 
-    ./kando.nix
     ./networkmanagerapplet.nix
     ./obs.nix
     ./rofi.nix

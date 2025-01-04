@@ -7,8 +7,7 @@
   imports =
     [ (modulesPath + "/installer/scan/not-detected.nix")
     ];
-  
-  boot = {
+ boot = {
     initrd = {
       availableKernelModules = [ "nvme" "xhci_pci" "ahci" "usb_storage" "usbhid" "sd_mod" ];
       kernelModules = [ ];
@@ -18,7 +17,6 @@
     supportedFilesystems = [ "ntfs" ];
   };
   #boot.supportedFilesystems = [ "ntfs" ];
-
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/76688632-d388-436b-b92f-19d59fd64535";
       fsType = "ext4";
@@ -29,7 +27,7 @@
       fsType = "vfat";
       options = [ "fmask=0077" "dmask=0077" ];
     };
-  
+
   # Volume:      8CD8D180D8D1694A
   # New Volume:  52FA7085FA7066DF
   fileSystems."/home/lexi/HDD1" =
@@ -54,6 +52,8 @@
   # with explicit per-interface declarations with `networking.interfaces.<interface>.useDHCP`.
   networking.useDHCP = lib.mkDefault true;
   # networking.interfaces.eno1.useDHCP = lib.mkDefault true;
+  # networking.interfaces.ipv6leakintrf0.useDHCP = lib.mkDefault true;
+  # networking.interfaces.tun0.useDHCP = lib.mkDefault true;
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;

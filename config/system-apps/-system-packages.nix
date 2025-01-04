@@ -20,7 +20,7 @@
     simple-scan
     networkmanagerapplet
     subfinder
-    
+    sshfs
     
     # AdoptOpenJDK
     temurin-bin
