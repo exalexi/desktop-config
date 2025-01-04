@@ -2,7 +2,6 @@
   description = "";
 
   inputs = {
-    # NixOS official package source, using the nixos-24.11 branch here
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
 
     # Home-Manager
@@ -25,7 +24,7 @@
     }@inputs:
     {
       formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
-      nixosConfigurations.Lesktop = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.lesktop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           catppuccin.nixosModules.catppuccin

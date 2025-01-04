@@ -119,6 +119,12 @@
             definedAliases = [ "nw" ];
           };
 
+          "NixOS Flakes" = {
+            urls = [ { template = "https://search.nixos.org/flakes?type=packages&query={searchTerms}"; } ];
+            icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
+            definedAliases = [ "nf" ];
+          };
+
           "Noogle" = {
             urls = [ { template = "https://noogle.dev/q?term={searchTerms}"; } ];
             icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
