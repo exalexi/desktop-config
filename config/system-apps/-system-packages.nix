@@ -22,7 +22,8 @@
     networkmanagerapplet
     subfinder
     sshfs
-
+    nixfmt-rfc-style
+    nil
     # AdoptOpenJDK
     temurin-bin
   ];
