@@ -37,7 +37,7 @@
     w3m
     imagemagick
     hyfetch
-    #qbittorrent
+    qbittorrent
     libreoffice
     tor-browser
     jellyfin-media-player
