@@ -13,6 +13,7 @@
     ./networkmanagerapplet.nix
     ./obs.nix
     ./rofi.nix
+    ./spicetify.nix
     ./vscode.nix
     ./zsh.nix
   ];
