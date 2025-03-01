@@ -24,7 +24,9 @@
     sshfs
     nixfmt-rfc-style
     nil
+    magic-wormhole-rs
     # AdoptOpenJDK
     temurin-bin
+    ali
   ];
 }

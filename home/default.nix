@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 {
   # Everything inside here is managed by Home Manager
   programs.home-manager = {
