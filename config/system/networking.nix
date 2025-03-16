@@ -16,10 +16,4 @@
       #wlp0s20f3.useDHCP = true;
     };
   };
-
-  # Tailscale
-  services.tailscale = {
-    enable = true;
-    useRoutingFeatures = "client";
-  };
 }
