@@ -15,8 +15,10 @@
     udisks
     polkit
     ntfs3g
+    parsec-bin
     pavucontrol
     libnotify
+    fastfetch
     neofetch
     simple-scan
     networkmanagerapplet

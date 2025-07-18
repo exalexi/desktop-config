@@ -20,7 +20,6 @@
     rpi-imager
     tigervnc
     gimp
-    protonvpn-gui
     vesktop
     nixfmt-rfc-style
     vlc
@@ -46,6 +45,6 @@
 
     #School stuff
     #ciscoPacketTracer7
-    ciscoPacketTracer8
+    #ciscoPacketTracer8
   ];
 }

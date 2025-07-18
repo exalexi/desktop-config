@@ -24,10 +24,10 @@
     # Right
     output HDMI-A-1 bg /etc/nixos/home/sway/images/CherryBlossomTree9by16Scaled.png fill
 
-    #blur on
-    #blur_xray on
-    #blur_passes 3
-    #blur_radius 10	
+    blur on
+    blur_xray on
+    blur_passes 3
+    blur_radius 10	
 
     corner_radius 15
 
@@ -39,7 +39,7 @@
     #shadow_color #f4b8e4
 
     # Set floating window size
-    for_window [app_id="Alacritty" floating] resize set 1400 700
+    #for_window [app_id="Alacritty" floating] resize set 1400 700
 
     # Startup Apps, TODO
     exec swaylock

@@ -13,5 +13,6 @@
     ./thermald.nix
     ./video.nix
     ./vms.nix
+    ./vpn.nix
   ];
 }
