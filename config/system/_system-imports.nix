@@ -10,6 +10,7 @@
     ./locale.nix
     ./mount.nix
     ./networking.nix
+    ./nh.nix
     ./printing.nix
     ./sway.nix
     ./thermald.nix
