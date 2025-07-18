@@ -6,6 +6,7 @@
     ./boot.nix
     ./fonts.nix
     ./greetd.nix
+    ./keyring.nix
     ./locale.nix
     ./mount.nix
     ./networking.nix
