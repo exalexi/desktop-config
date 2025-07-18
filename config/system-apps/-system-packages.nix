@@ -1,35 +1,35 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
-    greetd.tuigreet
-    lutris-free
-    wineWowPackages.waylandFull
-    micro
-    parted
+    # AdoptOpenJDK
+    ali
+    fastfetch
     git
-    wget
+    greetd.tuigreet
+    libnotify
     lshw
-    pulseaudio
-    usbutils
-    udiskie
-    udisks
-    polkit
+    lutris-free
+    magic-wormhole-rs
+    micro
+    neofetch
+    networkmanagerapplet
+    nil
+    nixd
+    nixfmt-rfc-style
     ntfs3g
     parsec-bin
+    parted
     pavucontrol
-    libnotify
-    fastfetch
-    neofetch
-    nixd
+    polkit
+    pulseaudio
     simple-scan
-    networkmanagerapplet
-    subfinder
     sshfs
-    nixfmt-rfc-style
-    nil
-    magic-wormhole-rs
-    # AdoptOpenJDK
+    subfinder
     temurin-bin
-    ali
+    udiskie
+    udisks
+    usbutils
+    wget
+    wineWowPackages.waylandFull
   ];
 }
