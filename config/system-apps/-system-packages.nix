@@ -3,6 +3,9 @@
   environment.systemPackages = with pkgs; [
     # AdoptOpenJDK
     ali
+    angryipscanner
+    ani-cli
+    arandr
     fastfetch
     git
     greetd.tuigreet
@@ -24,6 +27,8 @@
     pulseaudio
     simple-scan
     sshfs
+    system-config-printer
+    typst
     subfinder
     temurin-bin
     udiskie
@@ -31,5 +36,8 @@
     usbutils
     wget
     wineWowPackages.waylandFull
+    wireshark
+    wireguard-tools
+    xwayland-satellite
   ];
 }
