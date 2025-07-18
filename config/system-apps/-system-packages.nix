@@ -20,6 +20,7 @@
     libnotify
     fastfetch
     neofetch
+    nixd
     simple-scan
     networkmanagerapplet
     subfinder

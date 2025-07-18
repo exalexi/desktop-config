@@ -2,32 +2,43 @@
 {
   programs.vscode = {
     enable = true;
-    package = pkgs.vscodium-fhs;
-    extensions = with pkgs.vscode-extensions; [
+    #package = pkgs.vscodium-fhs;
+    package = pkgs.vscode-fhs;
+    profiles.default.extensions = with pkgs.vscode-extensions; [
       catppuccin.catppuccin-vsc-icons
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
-      redhat.java
       ms-vscode-remote.remote-ssh
+      tomoki1207.pdf
+      ms-python.python
+
+      # QMK
+      editorconfig.editorconfig
+
+      xaver.clang-format
+      llvm-vs-code-extensions.vscode-clangd
+      bierner.github-markdown-preview
     ];
-    userSettings = {
+    profiles.default.userSettings = {
+
+      #"editor.formatOnSave" = true;
+      "files.autoSave" = "onFocusChange";
+      "git.enableSmartCommit" = true;
 
       "nix.enableLanguageServer" = true;
+      "nix.serverPath" = "nixd";
       "nix.serverSettings" = {
-        "nil" = {
+        "nixd" = {
           "formatting" = {
-            "command" = [
-              "nixfmt"
-            ];
+            "command" = [ "nixfmt" ];
           };
         };
       };
-      "workbench.colorTheme" = "Catppuccin Mocha";
-      "files.autoSave" = "onFocusChange";
-      "editor.formatOnSave" = true;
+
       "nix.formatterPath" = "nixfmt";
-      "nix.serverPath" = "nil";
-      "git.enableSmartCommit" = true;
+      "window.menuBarVisibility" = "toggle";
+      "workbench.colorTheme" = "Catppuccin Mocha";
+      "json.format.enable" = false;
     };
   };
 }

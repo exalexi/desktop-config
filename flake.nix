@@ -62,7 +62,7 @@
     {
 
       formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
-      nixosConfigurations.Lextop = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.lesktop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
 
@@ -79,7 +79,7 @@
           lsfg-flake.nixosModules.default
 
           {
-            home-manager.users.lex = {
+            home-manager.users.lexi = {
               imports = [
                 ./home/default.nix
                 catppuccin.homeModules.catppuccin

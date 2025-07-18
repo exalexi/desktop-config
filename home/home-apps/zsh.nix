@@ -76,7 +76,7 @@
       };
     */
 
-    initExtra = ''
+    initContent = ''
       bindkey '^I' autosuggest-accept
       neofetch --distro_shorthand on --os_arch off --kernel_shorthand off --cpu_cores logical --cpu_temp C --gpu_type all --gtk_shorthand on --colors 225 219 231 225 225 189 --bold off --ascii_colors 225 117 0 0 0 0
     '';

@@ -29,6 +29,7 @@
     profiles.default = {
       id = 0;
       name = "Default";
+      extensions.force = true;
       settings = {
         "browser.startup.homepage" = "https://start.duckduckgo.com/?q=";
         "dom.security.https_only_mode" = true;
@@ -66,11 +67,11 @@
         "extensions.pocket.site" = "";
       };
       search = {
-        default = "DuckDuckGo";
-        privateDefault = "DuckDuckGo";
+        default = "ddg";
+        privateDefault = "ddg";
         force = true;
         engines = {
-          "Google".metaData.hidden = true;
+          "google".metaData.hidden = true;
           "Amazon".metaData.hidden = true;
 
           "Nix Packages" = {
