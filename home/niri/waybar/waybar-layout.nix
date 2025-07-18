@@ -15,21 +15,26 @@
       margin-right = 0;
       reload_style_on_change = true;
       modules-left = [
-        "sway/window"
-        #"cava"
+        "niri/window"
+        "user"
+
+        #"cpu"
         #"image"
         #"custom/mediaplayer"
       ];
       modules-center = [
-        "sway/workspaces"
+        #"memory#sidescroller"
+        "niri/workspaces"
       ];
       modules-right = [
         #"network"
         #"memory"
         #"cpu"
-        "tray"
-        "user"
+        #"user"
+        "backlight"
+        "battery"
         "pulseaudio"
+        "tray"
         "clock"
       ];
     };

@@ -1,11 +1,13 @@
 { ... }:
 {
-
   services.greetd = {
     enable = true;
-    restart = false;
+    restart = true;
     settings = {
-      default_session.command = "tuigreet --cmd 'dbus-run-session sway' -t -r --asterisks -g 'Hiya'";
+      default_session = {
+        user = "lexi";
+        command = "tuigreet --cmd 'niri-session --config /etc/nixos/home/niri/config.kdl' --remember --asterisks -g 'AUTHORIZED PERSONNEL ONLY!!!'";
+      };
     };
   };
 }

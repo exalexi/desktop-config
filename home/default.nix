@@ -12,7 +12,7 @@
   };
 
   imports = [
-    ./sway/_sway-imports.nix
+    ./niri/_niri-imports.nix
     ./home-apps/_home-apps-imports.nix
   ];
 

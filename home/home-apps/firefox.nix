@@ -6,7 +6,7 @@
     enable = true;
 
     policies = {
-      DefaultDownloadDirectory = "/home/lexi/download";
+      DefaultDownloadDirectory = "/home/lex/download";
       DisableFeedbackCommands = true;
       DisableFirefoxStudies = true;
       DisablePocket = true;
@@ -29,11 +29,10 @@
     profiles.default = {
       id = 0;
       name = "Default";
-      extensions.force = true;
       settings = {
         "browser.startup.homepage" = "https://start.duckduckgo.com/?q=";
-        "dom.security.https_only_mode" = true;
-        "dom.security.https_only_mode_ever_enabled" = true;
+        # "dom.security.https_only_mode" = true;
+        # "dom.security.https_only_mode_ever_enabled" = true;
         # Privacy settings
         "privacy.donottrackheader.enabled" = true;
         "privacy.trackingprotection.enabled" = true;
@@ -115,15 +114,9 @@
           };
 
           "NixOS Wiki" = {
-            urls = [ { template = "https://nixos.wiki/index.php?search={searchTerms}"; } ];
+            urls = [ { template = "https://wiki.nixos.org/w/index.php?search={searchTerms}"; } ];
             icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
             definedAliases = [ "nw" ];
-          };
-
-          "NixOS Flakes" = {
-            urls = [ { template = "https://search.nixos.org/flakes?type=packages&query={searchTerms}"; } ];
-            icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
-            definedAliases = [ "nf" ];
           };
 
           "Noogle" = {
@@ -139,6 +132,7 @@
           };
         };
       };
+      extensions.force = true;
     };
   };
 }

@@ -26,7 +26,7 @@ in
     #workspaces {
         background: ${custom.background};
         margin: 0px 0px;
-        padding: 2px 2px 4px 2px;
+        padding: 0px 2px 4px 2px;
         border-radius: 0px 0px 15px 15px;
         color: ${custom.accent};
     }
@@ -37,27 +37,28 @@ in
         border-radius: 10px;
         color:${custom.text};
         background: ${custom.transparency};
-        min-width: 50px;
+        min-width: 15px;
         transition: all 0.3s ease-in-out;
     }
 
-    #workspaces button.visible {
+    #workspaces button.active {
         background-color: ${custom.accent};
         color: ${custom.background};
         border-radius: 10px;
-        min-width: 75px;
+        min-width: 30px;
+        
         transition: all 0.3s ease-in-out;
     }
-
-    #workspaces button:hover {
+    #workspaces button:focused {
         background-color: ${custom.accent};
         color: ${custom.background};
         border-radius: 10px;
-        /*min-width: 50px;*/
-        transition: all 0.3s ease-in-out;
+      /*min-width: 50px;*/
+      transition: all 0.3s ease-in-out;
+        
     }
 
-    #tray, #pulseaudio, #network, #battery, #user{
+    #tray, #backlight, #pulseaudio, #network, #battery, #user, #cpu, #temperature{
         background: ${custom.background};
         border: 2px;
         border-color: ${custom.accent};

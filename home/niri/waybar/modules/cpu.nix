@@ -4,8 +4,10 @@
   programs.waybar.settings.mainBar = {
 
     cpu = {
-      format = "{usage}%  ";
+      format = "{usage}%   {avg_frequency}GHz";
       tooltip = false;
+      interval = 1;
+
     };
   };
 }

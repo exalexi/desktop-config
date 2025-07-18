@@ -7,6 +7,7 @@
     ani-cli
     arandr
     fastfetch
+    fuzzel
     git
     greetd.tuigreet
     libnotify
