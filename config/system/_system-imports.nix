@@ -11,8 +11,10 @@
     ./mount.nix
     ./networking.nix
     ./nh.nix
+    ./niri.nix
+    ./polkit.nix
+    ./portals.nix
     ./printing.nix
-    ./sway.nix
     ./thermald.nix
     ./video.nix
     ./vms.nix

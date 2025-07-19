@@ -13,4 +13,9 @@
   environment.variables = {
     NIRI_CONFIG = "/etc/nixos/home/niri/config.kdl";
   };
+
+  ## Swaylock
+  security.pam.services.swaylock = {
+    text = "auth include login";
+  };
 }

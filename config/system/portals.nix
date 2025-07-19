@@ -1,0 +1,13 @@
+{ pkgs, ... }:{
+  services.dbus.enable = true;
+  xdg.portal = {
+    enable = true;
+    wlr.enable = true;
+    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+    xdgOpenUsePortal = true;
+    config.common.default = [
+      "gtk"
+      "wlr"
+    ];
+  };
+}

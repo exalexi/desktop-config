@@ -8,7 +8,7 @@
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 environment {
 	DISPLAY ":0";
-	ELECTRON_OZONE_PLATFORM_HINT "auto";
+	//ELECTRON_OZONE_PLATFORM_HINT "auto";
 }
 
 //                         ____

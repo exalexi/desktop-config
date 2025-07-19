@@ -6,7 +6,7 @@
     enable = true;
 
     policies = {
-      DefaultDownloadDirectory = "/home/lex/download";
+      DefaultDownloadDirectory = "/home/lexi/download";
       DisableFeedbackCommands = true;
       DisableFirefoxStudies = true;
       DisablePocket = true;

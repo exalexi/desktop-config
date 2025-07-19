@@ -3,15 +3,12 @@
   # OpenGL
   hardware.graphics = {
     enable = true;
-    extraPackages = with pkgs; [
-      #intel-media-driver
-      #intel-compute-runtime
-    ];
+    enable32Bit = true;
+
   };
   hardware = {
     enableRedistributableFirmware = true;
     cpu = {
-      intel.updateMicrocode = true;
       amd.updateMicrocode = true;
     };
   };
