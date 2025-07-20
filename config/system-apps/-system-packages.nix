@@ -29,6 +29,7 @@
     pulseaudio
     simple-scan
     sshfs
+    swaybg
     system-config-printer
     typst
     subfinder
