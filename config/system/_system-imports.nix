@@ -8,6 +8,7 @@
     ./greetd.nix
     ./keyring.nix
     ./locale.nix
+    ./lsfg.nix
     ./mount.nix
     ./networking.nix
     ./nh.nix
