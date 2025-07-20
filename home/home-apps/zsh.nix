@@ -28,7 +28,7 @@
     };
 
     shellAliases = {
-      update = "sudo nixos-rebuild switch";
+      update = "nh os switch /etc/nixos";
       updateboot = "sudo nixos-rebuild boot";
       vsconfig = "sudo rm /home/lexi/.config/Code/User/settings.json";
       ".." = "cd ..";
