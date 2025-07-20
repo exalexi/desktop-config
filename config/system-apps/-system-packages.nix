@@ -21,6 +21,7 @@
     nixd
     nixfmt-rfc-style
     ntfs3g
+    mangohud
     parsec-bin
     parted
     pavucontrol
