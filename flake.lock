@@ -141,18 +141,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1752867845,
-        "narHash": "sha256-ZQDL4JYS9C56pMHd1ZfkQLGm+uCq9UVsNqnLGhpG9V8=",
-        "owner": "pabloaul",
-        "repo": "lsfg-vk-flake",
-        "rev": "51fc478daee163a812e8dc2a22ba358f4c5df4bd",
-        "type": "github"
+        "dirtyRev": "f6d9f067780d9ba56549831599c23c0df2cdece1-dirty",
+        "dirtyShortRev": "f6d9f06-dirty",
+        "lastModified": 1752953626,
+        "narHash": "sha256-fGAeF0//tXe2Q8t5CwQlcWZ4xvsiodWirnQZ/xlouHk=",
+        "type": "git",
+        "url": "file:///home/lexi/Documents/git/lsfg-vk-flake"
       },
       "original": {
-        "owner": "pabloaul",
-        "ref": "main",
-        "repo": "lsfg-vk-flake",
-        "type": "github"
+        "type": "git",
+        "url": "file:///home/lexi/Documents/git/lsfg-vk-flake"
       }
     },
     "niri": {
