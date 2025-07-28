@@ -30,6 +30,9 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Crosscompile for aarch64-linux
+  boot.binfmt.emulatedSystems = [ "aarch64-linux" ];
+
   # Enable zsh completion.
   environment.pathsToLink = [ "/share/zsh" ];
 
