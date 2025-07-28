@@ -11,7 +11,7 @@
     };
   };
   environment.variables = {
-    NIRI_CONFIG = "/etc/nixos/home/niri/config.kdl";
+    NIRI_CONFIG = "/etc/nixos/config/files/niri.kdl";
   };
 
   ## Swaylock
