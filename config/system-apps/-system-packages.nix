@@ -37,9 +37,10 @@
     udiskie
     udisks
     usbutils
+    vulkan-tools
     wget
-    wineWowPackages.waylandFull
     wireshark
+    wineWowPackages.stable
     wireguard-tools
     xwayland-satellite
   ];
